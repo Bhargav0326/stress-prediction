@@ -8,3 +8,6 @@ scikit-learn
 matplotlib
 seaborn
 xgboost
+werkzeug
+pickle-mixin
+sqlalchemy

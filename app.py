@@ -12,6 +12,17 @@ import secrets
 from functools import wraps
 import sqlalchemy as sa
 
+
+app = Flask(__name__)
+
+# Your routes and other Flask code here
+
+@app.route('/')
+def home():
+    return "Hello from main app!"
+
+
+
 # Initialize Flask app
 app = Flask(__name__)
 app.config['SECRET_KEY'] = secrets.token_hex(16)
